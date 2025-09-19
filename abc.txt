@@ -1,0 +1,6 @@
+3.	Create Terraform script
+o	a. Create 2 virtual networks with address space 10.5.0.0/16 and 10.15.0.0/16
+o	b. Create network peering between these 2 networks
+o	c. Create vm1 in network 1 with public IP
+o	d. Create vm2 in network 2 with only private IP (use same username and key for both machines)
+o	e. Use variable to capture public and private Ips
